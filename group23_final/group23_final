@@ -1,0 +1,19 @@
+Code Editor Used: Visual Studio
+Operating System: Ubuntu
+Programming Language: C++
+
+Steps to Run the Package Group23_final
+
+1) Download the package and put it in the src folder of your workspace final_ws
+
+2) Go to the terminal and do cd final_ws >> source and colcon build >> ros2 launch final_project final_project.launch.py (It will launch the gazebo and rviz with turthlebot and map)
+
+3) Now open another window in terminal and do >> source and colcon build >> ros2 run group23_final navigation_demo (it will run the execution file and bot will start the navigation)
+
+Note: There might be some issue with action client server and sometimes it takes time to catch it which makes the goal being rejected, if   this happens run the execution file again and again, 
+If one of the attempt the file will run and bot will start navigating (please refer video link attached below)
+
+4) Now you can visualise bot navigating in Rviz as well as Gazebo!
+ 
+ 
+ Video Link For Final Navigation of out Bot:- https://drive.google.com/file/d/1k9q55vkhPCru2Egmv6YiPui3NUTBq6Dp/view?usp=sharing
