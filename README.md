@@ -1,6 +1,11 @@
 # Overview
 This repository contains the source code and CAD files for a **Maze Navigation with Turtlebot**. This project focuses on maze navigation using the Waffle Turtlebot, incorporating Simultaneous Localization and Mapping (SLAM) for maze mapping. A C++ script within the ROS2 framework is developed, utilizing logical cameras to guide the Turtlebot through the maze to the specified goal.
 
+
+
+https://github.com/user-attachments/assets/b96f0336-9d10-45ef-935f-ecce0e8599c0
+
+
 ## Installation
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 1. Create a directory with a subfolder named **src** on your local machine.
